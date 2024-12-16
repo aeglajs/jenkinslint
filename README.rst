@@ -55,7 +55,7 @@ Install the pre-commit framework, and add the following to the
 ::
 
     - repo: https://github.com/PeterMosmans/jenkinslint
-      rev: v1.0.0
+      rev: v1.0.1
       hooks:
        - id: jenkinslint
 

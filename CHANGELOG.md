@@ -1,7 +1,12 @@
 # Changelog
 
-## 1.0.0 (2020-07-10)
+## 1.0.1 (2024-12-16)
 
+* do not wrap quotes around empty argument
+
+* allow linting multiple jenkinsfiles
+
+## 1.0.0 (2020-07-10)
 
 ### Bug Fixes
 
