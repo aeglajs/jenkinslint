@@ -86,7 +86,7 @@ web_validation(){
         show_settings
         exit 1
     fi
-    result=$(curl "${JENKINS_UNSAFE_SSL}" -sX POST -H "${JENKINS_CRUMB}" -F "jenkinsfile=<${JENKINS_FILE}" "${JENKINS_URL}/pipeline-model-converter/validate")
+    result=$(curl ${JENKINS_UNSAFE_SSL} -sX POST -H "${JENKINS_CRUMB}" -F "jenkinsfile=<${JENKINS_FILE}" "${JENKINS_URL}/pipeline-model-converter/validate")
 }
 
 validate(){
